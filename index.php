@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 use GuzzleHttp\Client;
 
 $address = 'gea1zhl37fpn556f89fd43agnzmdj8wcs43h24e7mr';
-// $address = 'gea12jan6lldlpzs0cykq5lvczw2yasp6zxzaqefw5';
+$address = 'gea12jan6lldlpzs0cykq5lvczw2yasp6zxzaqefw5';
 $getBalanceUrl = 'https://gea.uatserver.biz:8387/cosmos/bank/v1beta1/balances/';
 $brodcast_tx = 'https://gea.uatserver.biz/:8887/broadcast_tx_async?tx=';
 $url = $getBalanceUrl.$address;

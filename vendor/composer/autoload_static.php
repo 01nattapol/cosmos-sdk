@@ -7,16 +7,25 @@ namespace Composer\Autoload;
 class ComposerStaticInit4b55c7ef33235a0353c1b6b079f86964
 {
     public static $files = array (
+        '3109cb1a231dcd04bee1f9f620d46975' => __DIR__ . '/..' . '/paragonie/sodium_compat/autoload.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'k' => 
+        array (
+            'kornrunner\\' => 11,
+        ),
         'P' => 
         array (
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Http\\Client\\' => 16,
+        ),
+        'M' => 
+        array (
+            'Mdanter\\Ecc\\' => 12,
         ),
         'G' => 
         array (
@@ -24,17 +33,29 @@ class ComposerStaticInit4b55c7ef33235a0353c1b6b079f86964
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
+        'F' => 
+        array (
+            'FG\\' => 3,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'kornrunner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kornrunner/secp256k1/src',
+        ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
+        ),
+        'Mdanter\\Ecc\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paragonie/ecc/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -47,6 +68,10 @@ class ComposerStaticInit4b55c7ef33235a0353c1b6b079f86964
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'FG\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/genkgo/php-asn1/lib',
         ),
     );
 

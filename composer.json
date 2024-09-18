@@ -1,5 +1,6 @@
 {
     "require": {
-        "guzzlehttp/guzzle": "^7.9"
+        "guzzlehttp/guzzle": "^7.9",
+        "kornrunner/secp256k1": "^0.3.0"
     }
 }
